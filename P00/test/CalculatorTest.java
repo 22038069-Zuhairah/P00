@@ -45,6 +45,20 @@ public class CalculatorTest {
 		int expected = 5555;
 		assertEquals(actual, expected);
 	}
+	
+	@Test
+	public final void testDivide() {
+		//fail("Not yet implemented"); //T0D0
+		int a = 90;
+		int b = 9;
+		
+		Calculator cal = new Calculator();
+		int actual = cal.divide(a,b);
+		
+		int expected = 10;
+		assertEquals(actual, expected);
+	}
+	
 
 	@After
 	public void tearDown() throws Exception {
